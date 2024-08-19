@@ -1,0 +1,19 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Global link styles */
+a {
+  color: #4CAF50; /* Green link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+

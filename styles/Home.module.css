@@ -1,0 +1,86 @@
+/* Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars caused by the background image */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #ffffff; /* White border for contrast */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Optional: adds a blur effect behind the header */
+  width: 97%; /* Ensure the header covers the full width */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333; /* Darker text color */
+  margin: 0;
+}
+
+.authButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px; /* Rounded buttons */
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff; /* White text for contrast */
+  background: url('https://www.oxagile.com/wp-content/uploads/2024/01/banner-1.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the background image covers the entire container */
+  padding: 2rem; /* Add some padding for better spacing */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  max-width: 600px; /* Limit width for better readability */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-top: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Optional: adds a blur effect behind the footer */
+  width: 100%; /* Ensure the footer covers the full width */
+  color: #333; /* Darker text color */
+}
+
