@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { SignIn, useAuth, SignOut } from '@clerk/nextjs';
+import { SignIn, useAuth } from '@clerk/nextjs';
 import FlashcardCreator from '../components/Flashcard'; // Adjust path as necessary
 
 export default function Flashcards() {
